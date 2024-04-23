@@ -1,0 +1,676 @@
+
+  
+  body{
+      overflow: scroll; overflow-x:hidden;  overflow-y:auto;
+  }
+
+
+
+
+
+.profilepicture{
+    width: 1530px; height: 800px;
+ 
+
+ }  
+
+
+ .navbar{
+    margin-left:720px; margin-bottom:10px; }
+    
+    .navbar2{
+      margin-left:720px; }
+ .navbar2 a{
+    font-size: 18px;
+    background: transparent;
+    
+    
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    }
+    .whitecolor{
+        color:white; }
+        .header{
+          position: absolute;
+          top: 0;
+          left: 0; right:0;
+          width: 100%;
+          padding: 20px 100px;
+          background: transparent;
+          justify-content: space-between;
+          align-items: center; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+      }
+        
+
+
+      .aboutusswivelingholidaystext{
+    
+        color:white; font-size:45px; margin-left:431px; margin-top:230px; 
+    }
+    .aboutusswivelingholidaysslogan{
+      color:white; font-size:25px; margin-left:610px; 
+    }
+    
+    
+    .aboutustextpart{
+      font-size: 19px; margin-left:531px; max-width:961.7px;   
+    
+    }
+    .aboutusparagraph{
+      color:black; 
+      font-weight: bold;
+      font-family: trebuchet ms;  font-style: italic;
+    }
+    
+    
+    .aboutusimage{
+      width: 519px; height:572px;  float: left; margin-left:0px; border: 3px solid #fff; 
+    }
+    
+    
+    .aboutustitle{
+      font-family: 'Verdana', sans-serif;
+      font-weight: bold;
+      font-size: 34px;  text-transform: capitalize;     text-decoration:underline; 
+    }
+    
+    .aboutusreviewstitle{
+      font-size:38px; font-weight:bold; margin-left:450px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  }
+
+
+
+      .testimonialboxarea{
+        padding: 30px;
+        position: relative;
+          border: solid;
+        color: #000;
+        margin: 40px 0;
+      }
+
+
+
+
+
+
+
+
+
+      .testimonialboxarea h5 {
+        font-size: 23px;
+        font-weight: 700;
+        color: black;
+        margin-top: 30px; font-family: calibri;
+        margin-bottom: 5px;
+        
+      }
+      .testimonialboxarea span {
+        color: #262626;  font-family: open sans;
+        display: block;
+        font-size: 13px;  
+        margin: 0 0 10px;
+        font-weight: 400;
+      }
+      .testimonialboxarea .owlcarouselcontent {
+        color: #262626; font-family: trebuchet ms;
+      }
+      .testimonialboxarea .testimonialimagearea{
+        width: 90px;
+        height: 90px;
+        position: absolute;  
+        top: -40px;
+        left: 0;
+        
+        margin: 0 auto;
+        right: 0;
+        
+        
+        border-radius: 50%;
+        
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      .testimonialboxarea .testimonialimagearea img {
+        width: 89px; height:91px; margin-bottom:100px; 
+        
+        border-radius: 50%;
+      }
+      
+      
+      
+      
+      
+      
+      .testimonialsocialicons{
+        margin-top: 30px;
+      }
+      .testimonialsocialicons i {
+        margin: 0 10px;
+        color: #0a69ed;
+        font-size: 18px;
+      }
+      #testimonialarea .owl-nav {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+      }
+      
+      #testimonialarea .owl-prev, #testimonialarea .owl-next {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        color: #0a69ed;
+        border-radius: 50%;
+        text-align: center;
+        background: #fff;
+        position: absolute;
+      }
+      
+      #testimonialarea .owl-prev {
+        left: -60px;
+        top: -30px;
+      }
+      #testimonialarea .owl-next {
+        right: -60px;
+        top: -30px;
+      }
+      @media only screen and (max-width: 991px) {
+        .owl-nav {
+          display: none;
+        }
+      }
+      @media only screen and (max-width: 767px) {
+        .box-area {
+          text-align: center;
+        }
+        .owl-nav {
+          display: none;
+        }
+      } 
+
+
+
+
+      .aboutusfootertext{
+        max-width: 1170px;
+        margin:auto;
+      }
+    
+      .aboutusfooterrow{
+        display: flex;
+      
+      }
+      .aboutusfooter{
+        background-color: gray;
+          padding: 70px; 
+      }
+      
+      .aboutusfootercolumn{
+         width: 90%;
+      }
+      .aboutusfootercolumn h4{
+        font-size: 19px;
+        color: #ffffff;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        font-weight: 500;
+        position: relative;  text-underline-offset: 0.5em; text-decoration: underline;  text-decoration-color: red;
+      
+      
+      
+        text-decoration-thickness: 1.8px;
+      }
+      
+      .aboutusfootercolumn ul li{ 
+        margin-bottom: 10px;
+      }
+      
+      .aboutusunderline{
+      color:red; text-decoration: underline;}
+      
+      
+      
+      .aboutusfootercolumn ul li a{
+        font-size: 18px;
+      
+      
+      
+          text-transform: capitalize;
+        text-decoration: none;
+        color: #bbbbbb;
+        transition: all 0.3s ease;
+      }
+      .aboutusfootercolumn ul li a:hover{
+        color: #ffffff;
+        padding-left: 8px; 
+      }
+      .aboutusfootercolumn .servicesssocialicons a{
+        display: inline-block;  
+        height: 45px;
+        width: 45px;
+        background-color: rgba(255,255,255,0.2);
+      
+        margin:0 10px 10px 0;
+        text-align: center;
+        line-height: 40px;
+      
+          
+        border-radius: 50%;
+      
+      
+      
+      
+        color: #ffffff;
+        transition: all 0.5s ease;
+      }
+      
+       .aboutussocialicons ul {
+
+
+
+
+          position: absolute;
+          top: 15.5%;
+          left: 65.8%;    padding-top:1901px;
+          margin: 0;  display: flex;}
+      
+      
+      
+      
+    
+    
+      .aboutusfootertitle{
+        padding-left:32px;
+    }
+      .aboutussocialicons ul li {
+          list-style: none;
+          margin-left:12px;;
+      }
+      .aboutussocialicons ul li .fab{
+          color: #000000;
+          font-size: 20.5px;
+          line-height: 50px;
+          transition: .5s;   text-align: center;
+      }
+      .aboutussocialicons ul li .fa:hover {
+          color: #ffffff;
+      }
+      .aboutussocialicons ul li a {
+          position: relative;  
+          display: block;
+          width: 45px;
+          height: 45px;
+          border-radius: 50%;
+          background-color: white;
+          text-align:center;  
+          transition: 0.5s;
+          transform: translate(0,0px);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+      }
+      
+      
+      .aboutussocialicons ul li a:hover {
+          transform: rotate(0deg) skew(0deg) translate(0, -10px);
+      }
+      .aboutussocialicons ul li:nth-child(1) a:hover {
+          background-color: #3b5999; 
+      }
+      .aboutussocialicons ul li:nth-child(2) a:hover {
+          background-color: #55acee;
+      }
+      .aboutussocialicons ul li:nth-child(3) a:hover {
+        
+        
+         
+          background-color: #e4405f;
+      }
+      .aboutusssocialicons ul li :nth-child(4) a:hover{
+          background-color: red;
+      }
+      .aboutussocialicons ul li:nth-child(5) a:hover {
+          background-color: #0077B5;
+      }
+
+
+      ul{
+        list-style: none; 
+    }
+
+    li{
+        margin-left: -10px;
+    }
+
+
+
+
+  .dropdowncontent {
+    display: none;
+    position: absolute;
+    margin-top: 10px;
+    width: 138px; 
+    overflow: none;
+    background-color: rgb(179, 103, 103);   margin-left:96px; border-radius:10px;
+
+  }
+
+  .dropdowncontent::before{
+content: '';  position: absolute;  border-left: 10px solid transparent;  border-right: 10px solid transparent;  border-top: 10px solid transparent; border-bottom: 10px solid rgb(179, 103, 103);  top:-18px; right:59px;
+
+  }
+
+
+  
+
+
+    
+.dropdowncontent a {
+  color:white;
+  padding: 5.9px 0 10px;
+  text-decoration: none;
+  display: block;
+
+
+}
+
+
+.dropdowncontent a:hover{
+  color: black; cursor: pointer;}
+
+
+
+
+.dropbutton{
+color: white; cursor: pointer;}
+
+
+.show{display:block;}
+
+
+
+
+
+
+
+
+
+.termsandconditionsbody{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+
+
+  .termsandconditionsbackgroundimage{
+    background: url("pfp.jpg");
+    height: 781px;
+    width: 100%;
+
+    position: absolute;
+    background-size: cover;
+    filter: blur(5px);  z-index: -2;   opacity: 0.4;  filter: brightness(75%);}
+
+
+
+
+
+
+
+.termsandconditionsbox{
+  max-width: 620px;
+  background-color: rgb(83, 83, 83, 0.1);
+
+
+  
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0 20px; height: 610px; font-size: 14px;
+}
+
+
+
+
+
+.termsandconditionstext{
+ padding: 0 20px;
+ height: 610px;
+ overflow-y: auto;
+ font-size: 14;
+ font-weight: 500;
+ color:#111;  }
+
+
+
+
+
+
+ .termsandconditionstext::-webkit-scrollbar{
+  width: 2px;
+  background-color: #282828;  width: 7.1px;  }
+
+  .termsandconditionstext::-webkit-scrollbar-thumb{
+    
+    background-color: rgb(229,229,61);  }
+
+  .termsandconditionstext h2
+  {
+    text-transform: uppercase;  
+  }
+  .termsandconditionstext h4
+  {   font-size: 13px;  text-align: center; padding: 0 40px;
+       
+    }
+
+
+
+
+
+
+  .termsandconditionsbuttons
+    {   display: flex;   padding: 0 20px;  justify-content: space-between; padding-bottom: 30px;    
+      }
+
+
+
+
+  .termsandconditionsacceptbutton{         
+
+
+    height: 53px;
+    width:191px;
+    border: 0;
+    border-radius: 6px;
+    
+    font-size: 19px;
+    font-weight: 531;   color: white;  transition: 0.3s;  cursor: pointer;}
+
+
+
+
+
+
+    .termsandconditionsdeclinebutton{  
+
+      height: 53px;
+      width: 191px;
+      border: 0;
+      border-radius: 6px;
+      
+      font-size: 19px;
+      font-weight: 531;   color: white;  transition: 0.3s;  cursor: pointer;
+    }
+
+.redcolor{ background-color: rgb(245,68,68); }   .graycolor{ background-color: #282828; }
+
+
+
+
+
+
+.termsandconditionsacceptbutton:hover{ opacity: 0.59; }   .termsandconditionsdeclinebutton:hover{ opacity: 0.59; }
+
+
+
+@media only screen and (min-width: 453px) and (max-width: 1310px ){
+  .navbar2{
+    text-align: center;  margin: 61px 45px 0px 10px;}
+
+
+
+
+    .aboutusswivelingholidaystext{
+      text-align: center;   margin: 103px 0px 10px 0px;  }
+      .aboutusswivelingholidaysslogan{  text-align: center; margin: 0px 0px 0px 1px;  }
+
+
+
+
+
+  .dropdowncontent a {  text-align:center; margin: 0;}
+
+  .dropdowncontent {  position: absolute;}
+  }
+
+
+
+  @media only screen and (min-width: 610px) and (max-width: 810px){
+
+
+
+
+
+
+
+   .dropdowncontent{ 
+    margin: 10px 0px 0px 181px;
+  }
+  
+  }
+  @media only screen and (min-width: 810px) and (max-width: 1053px){
+    .dropdowncontent{ 
+     margin: 10px 0px 0px 181px;
+   }
+}
+
+
+
+
+
+@media only screen and (min-width: 1053px) and (max-width: 1310px){
+  .dropdowncontent{ 
+   margin: 10px 0px 0px 181px;
+ }
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 610px) { .termsandconditionsacceptbutton
+{         
+  height: 53px;
+  width:153px;
+  border: 0;
+  border-radius: 6px;
+  
+  font-size: 19px;
+  font-weight: 531;   color: white;  transition: 0.3s;  cursor: pointer;
+}
+  .termsandconditionsdeclinebutton{  
+    height: 53px;
+    width: 153px;
+    border: 0;
+
+    border-radius: 6px;
+    font-size: 19px;
+
+
+
+    font-weight: 531;   color: white;  transition: 0.3s;  cursor: pointer;}
+
+ }
+
+
+
+
+ @media only screen and (min-width: 0px) and (max-width: 1030px){         
+  
+
+
+
+  .aboutusimage{         
+    width: auto; height: auto;
+  }
+
+  .aboutustextpart{         
+    display: block; flex-direction: column;  text-align: center;  align-items: center;  margin: 0 0 0 1px;
+  }
+
+
+
+  .aboutusreviewstitle{         
+    
+    text-align: center;  margin: 0 0 0 3px;
+  }
+
+
+
+  .aboutusfooterrow { display: block;  margin: 0 0 0 18px; }  
+    
+  .aboutussocialicons ul { position: absolute;   margin: 0 0 0 -159px; 
+    padding-top: 3453px;  padding-bottom: 0px; padding-right: 61px; display: block;}   
+    .aboutusfooter{padding: 80px; height:1185px; text-align: center; }   .margin23{margin: 23 0 0 45px;}
+    
+  
+  }
+  @media only screen and (min-width: 503px) and (max-width: 810px)
+  {  
+    .aboutusfooterrow { display: block;  margin: 0 0 0 18px; }  
+    
+  .aboutussocialicons ul { position: absolute;   margin: 0 0 0 -271px; 
+    padding-top: 3453px;  padding-bottom: 0px; padding-right: 61px; display: flex;}   
+    .aboutusfooter{padding: 80px; height:1185px; text-align: center; }   .margin23{margin: 23 0 0 45px;}
+      }     
+
+
+
+
+
+
+        
+   @media only screen and (min-width: 810px) and (max-width: 1053px){
+    .aboutusfooterrow { display: block;  margin: 0 0 0 18px; }  
+    
+  .aboutussocialicons ul { position: absolute;   margin: 0 0 0 -331px; 
+    padding-top: 3181px;  padding-bottom: 0px; padding-right: 61px; display: flex;}   
+    .aboutusfooter{padding: 80px; height:1185px; text-align: center; }   .margin23{margin: 23 0 0 45px;}
+  }
+  
+
+
+
+
+
+
+
+
+
+  @media only screen and (min-width: 1053px) and (max-width: 1510px){
+    .aboutusfooterrow { display: block;  margin: 0 0 0 18px; }  
+    
+  .aboutussocialicons ul { position: absolute;   margin: 0 0 0 -381px; 
+    padding-top: 2981px;  padding-bottom: 0px; padding-right: 61px; display: flex;}   
+    .aboutusfooter{padding: 80px; height:1185px; text-align: center; }   .margin23{margin: 23 0 0 45px;}
+    }

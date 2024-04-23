@@ -1,0 +1,2674 @@
+*{
+  margin:0;
+  padding:0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+  max-width:100%; 
+
+}
+
+
+body{
+
+
+    overflow: scroll; overflow-x:hidden;  overflow-y:auto; }
+
+
+
+
+.profilepicture{
+    width: 1530px; height: 800px;
+ 
+
+ }
+
+.homeswivelingholidaysslogan{
+    color:white; font-size:25px; margin-left:540px;
+    
+}
+
+
+.navbar{
+margin-left:720px; margin-bottom:10px; }
+
+.navbar2{
+  margin-left:720px; }
+
+
+ 
+ .homeswivelingholidaystext{
+    
+    color:white; font-size:45px; margin-left:354px; margin-top:230px;
+}
+
+
+.whitecolor{
+  color:white; }
+.header{
+    position: absolute;
+    top: 0;
+    left: 0; right:0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.logo{
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+.navbar a{
+font-size: 18px;
+background: transparent;
+
+
+font-weight: 500;
+text-decoration: none;
+margin-left: 40px;
+}
+
+.navbar2 a{
+  font-size: 18px;
+  background: transparent;
+  
+  
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+  }
+
+
+.navbar a:hover{
+    color: gray; cursor:pointer;
+}
+.navbar2 a:hover{
+  color: gray; cursor:pointer;}
+
+
+
+
+
+
+
+
+
+.descriptionimage{
+    max-width: 320px; max-height:180px;  float:left; border: 3px solid #fff; 
+}
+
+.textportion{
+    font-size: 19px; margin-right:30px;
+ }
+
+
+ .homefootertext{
+    max-width: 1170px;  margin:auto;
+}
+
+
+
+.homefooterrow{
+display:flex;
+
+}
+
+
+ul{
+  list-style: none;
+}
+
+.homefooter{
+  background-color: rgb(135, 130, 130);
+  padding: 70px;}
+
+
+
+.homefootercolumn{
+
+width:90%;
+}
+
+
+.homefootercolumn h4{
+  font-size: 19px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight:500;
+  position: relative;
+  
+  text-underline-offset: 0.5em;  text-decoration: underline;  text-decoration-color:red; text-decoration-thickness: 1.8px;
+}
+
+.homefootercolumn ul li{
+    margin-bottom: 10px;
+    }
+.underline{
+  color:red; text-decoration: underline;
+    }
+
+
+
+
+
+
+
+
+.homefootercolumn ul li a{
+     font-size: 18px;
+     text-transform: capitalize;  text-decoration: none;  color: #bbbbbb;
+
+     transition: all 0.3 ease;
+    }
+
+
+
+
+
+    .homefootercolumn ul li a:hover{
+        
+        color: white;  padding-left: 8px;
+       }
+
+
+       .homefootercolumn .homesocialicons a{
+        display: inline-block;  /* the icons will not be stuck together */
+        height: 45px;
+        width: 45px;
+        background-color: rgba(255,255,255,0.2);
+        margin:0 10px 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: #ffffff; transition: all 0.5s ease;}
+    
+    
+    
+
+    
+    
+    .homesocialicons ul {
+        position: absolute;
+        top: 161%;
+        left: 68%;   
+        padding: 0;
+        margin: 0;  display: flex;}
+    .homesocialicons ul li {
+        list-style: none;
+        margin-left:10px;
+    }
+    .homesocialicons ul li .fab{
+        color: #000000;
+        font-size: 20.5px;
+        line-height: 50px;
+        transition: .5s;   text-align: center;
+    }
+    .homesocialicons ul li .fa:hover {
+        color: #ffffff;
+    }
+    .homesocialicons ul li a {
+        position: relative;
+        display: block;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background-color: white;
+        text-align:center;  
+        transition: 0.5s;
+        transform: translate(0,0px);
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    }
+    .homesocialicons ul li a:hover {
+        transform: rotate(0deg) skew(0deg) translate(0, -10px);
+    }
+    .homesocialicons ul li:nth-child(1) a:hover {
+        background-color: #3b5999; 
+    }
+    .homesocialicons ul li:nth-child(2) a:hover {
+        background-color: #55acee;
+    }
+    .homesocialicons ul li:nth-child(3) a:hover {
+        background-color: #e4405f;
+    }
+    .homesocialicons ul li:nth-child(4) a:hover {
+        background-color: #cd201f;
+    }
+    .homesocialicons ul li:nth-child(5) a:hover {
+        background-color: #0077B5;
+    }
+
+    .hotelsnotbookedplacement {
+        width: 95%;
+        margin: 0 105px;
+      }
+      #searchhotelsbutton {
+        margin: 1em; margin-left:450px;
+      }
+      #searchhotelsbutton input {
+        background-color: transparent;
+        width: 40%;
+        border-bottom: 2px solid #110f29;
+        padding: 1em 0.3em;
+      }
+      
+      
+      
+      
+      #searchhotelsbutton input:focus {
+        border-bottom-color: #6759ff;
+      }
+      #searchhotelsbutton button {
+        padding: 1em 2em;
+        margin-left: 1em;
+        background-color: #6759ff;
+        color: #ffffff;
+        border-radius: 5px;
+        margin-top: 0.5em;
+      }
+      .button-value {
+        border: 2px solid #6759ff;
+        padding: 1em 2.2em;
+        border-radius: 3em;
+        background-color: transparent;
+        color: #6759ff;
+        cursor: pointer;
+      }
+      .active {
+        background-color: #6759ff;
+        color: #ffffff;
+      }
+      #hotelsnotbooked {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-column-gap: 1.5em;
+        padding: 2em 0;
+      }
+      .card {
+        background-color: #ffffff;
+        max-width: 18em;
+        margin-top: 1em;
+        padding: 1em;
+        border-radius: 5px; border-style:solid;
+      }
+      .image-container {
+        text-align: center;
+      }
+      .hotelattributesarea {
+        padding-top: 1em;
+        color: #110f29;
+      }
+      
+      
+      .hotelattributesarea h5 {
+        font-weight: 500;
+      }
+      
+      
+      
+      
+      .hide {
+        display: none;
+      }
+
+      .hoteldescription{
+        font-size:12.8px;
+      }
+
+
+      .otherhotelsfootertext{
+        max-width: 1170px;
+        margin:auto;
+      }
+      .otherhotelsfooterrow{
+        display: flex;
+      
+      }
+      .otherhotelsfooter{
+        background-color: gray;
+          padding: 70px;
+      }
+      
+      .otherhotelsfootercolumn{
+         width: 90%;
+      }
+      .otherhotelsfootercolumn h4{
+        font-size: 19px;
+        color: #ffffff;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        font-weight: 500;
+        position: relative;  text-underline-offset: 0.5em; text-decoration: underline;  text-decoration-color: red;
+      
+      
+      
+        text-decoration-thickness: 1.8px;
+      }
+      
+      .otherhotelsfootercolumn ul li{ 
+        margin-bottom: 10px;
+      }
+      
+      .otherhotelsunderline{
+      color:red; text-decoration: underline;}
+      
+      
+      
+      .otherhotelsfootercolumn ul li a{
+        font-size: 18px;
+      
+      
+      
+          text-transform: capitalize;
+        text-decoration: none;
+        color: #bbbbbb;
+        transition: all 0.3s ease;
+      }
+      .otherhotelsfootercolumn ul li a:hover{
+        color: #ffffff;
+        padding-left: 8px; 
+      }
+      .otherhotelsfootercolumn .otherhotelssocialicons a{
+        display: inline-block;  
+        height: 45px;
+        width: 45px;
+        background-color: rgba(255,255,255,0.2);
+      
+        margin:0 10px 10px 0;
+        text-align: center;
+        line-height: 40px;
+      
+          
+        border-radius: 50%;
+      
+    
+        color: #ffffff;
+        transition: all 0.5s ease;
+      }
+
+
+
+
+       .otherhotelssocialicons ul {
+          position: absolute;
+          top: 15.5%;
+          left: 66.1%;    padding-top:2330px;
+          margin: 0;  display: flex;}
+      
+      
+      
+      
+
+
+      .otherhotelsfootertitle{
+        padding-left:32px;
+    }
+      .otherhotelssocialicons ul li {
+          list-style: none;
+          margin-left:12px;;
+      }
+      .otherhotelssocialicons ul li .fab{
+          color: #000000;
+          font-size: 20.5px;
+          line-height: 50px;
+          transition: .5s;   text-align: center;
+      }
+      .otherhotelssocialicons ul li .fa:hover {
+          color: #ffffff;
+      }
+      .otherhotelssocialicons ul li a {
+          position: relative;  
+          display: block;
+          width: 45px;
+          height: 45px;
+          border-radius: 50%;
+          background-color: white;
+          text-align:center;  
+          transition: 0.5s;
+          transform: translate(0,0px);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+      }
+      
+      
+      .otherhotelssocialicons ul li a:hover {
+          transform: rotate(0deg) skew(0deg) translate(0, -10px);
+      }
+      .otherhotelssocialicons ul li:nth-child(1) a:hover {
+          background-color: #3b5999; 
+      }
+      .otherhotelssocialicons ul li:nth-child(2) a:hover {
+          background-color: #55acee;
+      }
+      .otherhotelssocialicons ul li:nth-child(3) a:hover {
+        
+        
+         
+          background-color: #e4405f;
+      }
+      .otherhotelssocialicons ul li:nth-child(4) a:hover {
+          background-color: #cd201f;
+      }
+      .otherhotelssocialicons ul li:nth-child(5) a:hover {
+          background-color: #0077B5;
+      }
+
+
+
+  
+
+.otherhotelsswivelingholidaystext{
+  color:white; font-size:45px; margin-left:331px; margin-top:230px;
+}
+
+
+
+.otherhotelsswivelingholidaysslogan{ color:white; font-size:25px; margin-left:572px;}
+
+
+
+
+
+
+.hotelservicesswivelingholidaystext{
+  color:white; font-size:45px; margin-left:371px; margin-top:230px;
+}
+
+.hotelservicesswivelingholidaysslogan{color: white; font-size:25px; margin-left:572px; }
+
+
+
+.servicescontainer {
+  margin-right: auto;
+  margin-left: 59px;
+  padding-left: 0px;   
+  padding-right: 20px;  width: 1180px;
+}
+
+
+
+@media (min-width: 992px) {
+  .col-md-4{
+    float: left;   width: 33.33333%;
+  }
+  #servicessection
+  {
+    padding: 7em;
+  }
+  
+  .services {
+    position: relative;
+    margin-bottom: 60px;
+  }
+  .services span {
+    position: absolute;
+    top: 15px;
+    left: 0;
+  }
+  
+  
+  
+  
+  
+  .fa-clock {
+  font-size:45px;  margin: 0 0 10px 19.5px;
+  
+    
+   background-size: 100px;
+    -webkit-border-radius: 50%; border-radius:50%;
+  
+  
+  
+  }
+  .fa-hotel{
+      font-size:45px;  margin: 0 0 10px 19.5px;
+         background-size: 100px;
+        -webkit-border-radius: 50%; border-radius:50%;
+      }
+
+
+      .fa-location-arrow{
+        font-size:45px;  margin: 0 0 10px 19.5px;
+            background-size: 100px;
+          -webkit-border-radius: 50%; border-radius:50%;
+        }
+
+
+
+        .fa-male{
+          font-size:81px;  margin: 0 0 10px 31px;
+              background-size: 100px;
+            -webkit-border-radius: 50%; border-radius:50%;
+          }
+          .fa-calendar{
+            font-size:45px;  margin: 0 0 10px 19.5px;
+                background-size: 100px;
+              -webkit-border-radius: 50%; border-radius:50%;
+            }
+
+
+
+
+
+
+
+    .fa-rss{
+      font-size:45px;  margin: 0 0 10px 19.5px;
+       background-size: 100px;
+      -webkit-border-radius: 50%; border-radius:50%;
+              }
+  .services .desc {
+    padding-left: 100px;
+  }
+   }
+
+   .servicesfootertext{
+    max-width: 1170px;
+    margin:auto;
+  }
+
+  .servicesfooterrow{
+    display: flex;
+  
+  }
+  .servicesfooter{
+    background-color: gray;
+      padding: 70px;
+  }
+  
+  .servicesfootercolumn{
+     width: 90%;
+  }
+  .servicesfootercolumn h4{
+    font-size: 19px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;  text-underline-offset: 0.5em; text-decoration: underline;  text-decoration-color: red;
+  
+  
+  
+    text-decoration-thickness: 1.8px;
+  }
+  
+  .servicesfootercolumn ul li{ 
+    margin-bottom: 10px;
+  }
+  
+  .servicesunderline{
+  color:red; text-decoration: underline;}
+  
+  
+  
+  .servicesfootercolumn ul li a{
+    font-size: 18px;
+  
+  
+  
+      text-transform: capitalize;
+    text-decoration: none;
+    color: #bbbbbb;
+    transition: all 0.3s ease;
+  }
+  .servicesfootercolumn ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px; 
+  }
+  .servicesfootercolumn .servicesssocialicons a{
+    display: inline-block;  
+    height: 45px;
+    width: 45px;
+    background-color: rgba(255,255,255,0.2);
+  
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+  
+      
+    border-radius: 50%;
+  
+  
+  
+  
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  
+   .servicessocialicons ul {
+      position: absolute;
+      top: 15.5%;
+      left: 66.32%;    padding-top:1710px;
+      margin: 0;  display: flex;}
+  
+  
+  
+  
+
+
+  .servicesfootertitle{
+    padding-left:32px;
+}
+  .servicessocialicons ul li {
+      list-style: none;
+      margin-left:12px;;
+  }
+  .servicessocialicons ul li .fab{
+      color: #000000;
+      font-size: 20.5px;
+      line-height: 50px;
+      transition: .5s;   text-align: center;
+  }
+  .servicessocialicons ul li .fa:hover {
+      color: #ffffff;
+  }
+  .servicessocialicons ul li a {
+      position: relative;  
+      display: block;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      background-color: white;
+      text-align:center;  
+      transition: 0.5s;
+      transform: translate(0,0px);
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  .servicessocialicons ul li a:hover {
+      transform: rotate(0deg) skew(0deg) translate(0, -10px);
+  }
+  .servicessocialicons ul li:nth-child(1) a:hover {
+      background-color: #3b5999; 
+  }
+  .servicessocialicons ul li:nth-child(2) a:hover {
+      background-color: #55acee;
+  }
+  .servicessocialicons ul li:nth-child(3) a:hover {
+    
+    
+     
+      background-color: #e4405f;
+  }
+  .servicesssocialicons ul li:nth-child(4) a:hover {
+      background-color: #cd201f;
+  }
+  .servicessocialicons ul li:nth-child(5) a:hover {
+      background-color: #0077B5;
+  }
+
+
+
+
+.aboutusswivelingholidaystext{
+
+    
+    color:white; font-size:45px; margin-left:431px; margin-top:230px;
+}
+.aboutusswivelingholidaysslogan{
+  color:white; font-size:25px; margin-left:610px;
+
+}
+
+
+.aboutustextpart{
+  font-size: 19px; margin-left:531px; max-width:961.7px;
+
+}
+.aboutusparagraph{
+  color:black; 
+  font-weight: bold;
+  font-family: trebuchet ms;  font-style: italic;
+}
+
+
+.aboutusimage{
+  width: 519px; height:572px;  float: left; margin-left:0px; border: 3px solid #fff; 
+}
+
+
+.aboutustitle{
+  font-family: 'Verdana', sans-serif;
+  font-weight: bold;
+  font-size: 34px;  text-transform: capitalize;     text-decoration:underline; 
+}
+
+.aboutusreviewstitle{
+  font-size:38px; font-weight:bold; margin-left:450px;}
+
+
+
+
+  .dropdowncontent {
+    display: none;
+    position: absolute;
+    margin-top: 10px;
+    width: 138px; 
+    overflow: none;
+    background-color: rgb(179, 103, 103);   margin-left:96px; border-radius:10px;
+
+  }
+
+  .dropdowncontent::before{
+content: '';  position: absolute;  border-left: 10px solid transparent;  border-right: 10px solid transparent;  border-top: 10px solid transparent; border-bottom: 10px solid rgb(179, 103, 103);  top:-18px; right:59px;
+
+  }
+
+
+  
+
+
+    
+.dropdowncontent a {
+  color:white;
+  padding: 5.9px 0 10px;
+  text-decoration: none;
+  display: block;
+
+
+}
+
+
+.dropdowncontent a:hover{
+  color: black; cursor: pointer;}
+
+
+
+
+.dropbutton{
+color: white; cursor: pointer;}
+
+
+.show{display:block;}
+
+
+
+
+
+
+
+
+
+
+
+
+.ballyfinhotelfootertext{
+  max-width: 1170px;
+  margin:auto;
+}
+
+.ballyfinhotelfooterrow{
+  display: flex;
+
+}
+.ballyfinhotelfooter{
+  background-color: gray;
+    padding: 70px;
+}
+
+.ballyfinhotelfootercolumn{
+   width: 90%;
+}
+.ballyfinhotelfootercolumn h4{
+  font-size: 19px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;  text-underline-offset: 0.5em; text-decoration: underline;  text-decoration-color: red;
+
+
+
+  text-decoration-thickness: 1.8px;
+}
+
+.ballyfinhotelfootercolumn ul li{ 
+  margin-bottom: 10px;
+}
+
+.ballyfinhotelunderline{
+color:red; text-decoration: underline;}
+
+
+
+.ballyfinhotelfootercolumn ul li a{
+  font-size: 18px;
+
+
+
+    text-transform: capitalize;
+  text-decoration: none;
+  color: #bbbbbb;
+  transition: all 0.3s ease;
+}
+.ballyfinhotelfootercolumn ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px; 
+}
+.ballyfinhotelfootercolumn .ballyfinhotelsocialicons a{
+  display: inline-block;  
+  height: 45px;
+  width: 45px;
+  background-color: rgba(255,255,255,0.2);
+
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+
+    
+  border-radius: 50%;
+
+
+
+
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+ .ballyfinhotelsocialicons ul {
+    position: absolute;
+    top: 15.1%;
+    left: 66.32%;    padding-top: 3381px;
+    margin: 0;  display: flex;}
+
+
+
+
+
+
+.ballyfinhotelfootertitle{
+  padding-left:32px;
+}
+
+.ballyfinhotelsocialicons ul li {
+    list-style: none;
+    margin-left:12px;;
+}
+.ballyfinhotelsocialicons ul li .fab{
+    color: #000000;
+    font-size: 20.5px;
+    line-height: 50px;
+    transition: .5s;   text-align: center;
+}
+.ballyfinhotelsocialicons ul li .fa:hover {
+    color: #ffffff;
+}
+.ballyfinhotelsocialicons ul li a {
+    position: relative;  
+    display: block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: white;
+    text-align:center;  
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.ballyfinhotelsocialicons ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.ballyfinhotelsocialicons ul li:nth-child(1) a:hover {
+    background-color: #3b5999; 
+}
+.ballyfinhotelsocialicons ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.ballyfinhotelsocialicons ul li:nth-child(3) a:hover {
+  
+  
+   
+    background-color: #e4405f;
+}
+.ballyfinhotelsocialicons ul li:nth-child(4) a:hover {
+    background-color: #cd201f;
+}
+.ballyfinhotelsocialicons ul li:nth-child(5) a:hover {
+    background-color: #0077B5;
+}
+
+
+.ballyfinhotelswivelingholidaystext{
+
+    
+  color:white; font-size:45px; margin-left:423px; margin-top:230px;
+}
+.ballyfinhotelswivelingholidaysslogan{
+color:white; font-size:25px; margin-left:571px;
+
+}
+
+
+
+
+section{
+  font-family: 'Poppins', sans-serif;
+  padding: 3rem 0 2rem;  
+  }
+
+.ballyfinhotelcontent{
+  max-width: 1068px;
+  margin-left: 182px;
+  width: 100%;
+  }
+
+
+  
+
+  .aboutballyfinhotel{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .aboutballyfinhotel .ballyfinhotelcontentbox{
+
+      padding-right: 40px;  margin-left:30px;
+      }
+
+  .ballyfinhoteltitle{
+    font-weight: 600;
+    color: #113;  font-size: 2em;  min-width: 100%; margin: 1px 0;
+    }
+
+
+    .ballyfinhoteltitletext{
+      color: #113;  font-size: 1.15em;  min-width: 100%;
+      }
+.aboutballyfinhotel .ballyfinhotelimagebox{
+  position: relative;
+  min-width: 50%;
+
+  width: 30%;  left:3.1%;  min-height:500px;  
+  }
+
+
+  .ballyfinhotelreadbutton{
+    position: relative;
+    display: inline-block;  margin-top: 30px; padding: 10px 30px; background: #fff; cursor:pointer;
+
+    border: .8px solid #111;
+    color: #333;
+    text-decoration: none;  }
+
+
+
+  .ballyfinhotelreadbutton:hover{
+    background-color: blue;
+    border: none;
+    color: #fff;
+  }
+
+  .ballyfinhotelbookbutton 
+  {
+    position: relative;
+  display: inline-block;  margin-top: 30px; padding: 10px 30px; background: #fff; margin-left:189px;
+
+  border: .8px solid #111;
+  color: #333;
+  text-decoration: none;  }
+
+  .ballyfinhotelbookbutton:hover{
+    background-color: blue;
+    border: none;
+    color: #fff; cursor:pointer;
+  }
+
+
+  #more{
+    display: none;  
+  }
+  
+
+  .ballyfinhotelimagecontent{
+    position: relative;
+    width: 450px;  
+    height: 450px;
+    display: inline-block; object-fit: contain;}
+
+
+    .ballyfinhotelimage{
+      display: block;
+    width: 450px;
+  height: 450px;}
+
+
+  .ballyfinhotelimagetext{
+    color: white;
+    font-size: 20px;
+    position: absolute;  top: 50%;  left:50%;  transform: translate(-50%, -50%);  font-family: 'Poppins', sans-serif;}
+
+
+
+
+
+
+    .ballyfinhotelcurtaineffectfade{
+      height: 100%;
+      width: 100%;
+      top: 0;  left: 0;  background-color: #ff946bbd;}
+.ballyfinhotelcurtaineffect{
+  position: absolute;
+  opacity: 0;
+  transition: all 0.3s ease;
+  background-color: #008cba;
+}
+
+.ballyfinhotelimagecontent:hover .ballyfinhotelcurtaineffectfade{
+  opacity: 1;
+}
+
+.havenhotelfootertext{
+  max-width: 1170px;
+  margin:auto;
+}
+
+.havenhotelfooterrow{
+  display: flex;
+
+}
+.havenhotelfooter{
+  background-color: gray;
+    padding: 70px;
+}
+
+.havenhotelfootercolumn
+{
+
+   width: 90%;}
+
+.havenhotelfootercolumn h4{
+  font-size: 19px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;  text-underline-offset: 0.5em; text-decoration: underline;  text-decoration-color: red;
+
+
+
+  text-decoration-thickness: 1.8px;
+}
+
+.havenhotelfootercolumn ul li{ 
+  margin-bottom: 10px;
+}
+
+.havenhotelunderline{
+color:red; text-decoration: underline;}
+
+
+
+.havenhotelfootercolumn ul li a{
+  font-size: 18px;
+
+
+
+    text-transform: capitalize;
+  text-decoration: none;
+  color: #bbbbbb;
+  transition: all 0.3s ease;
+}
+.havenhotelfootercolumn ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px; 
+}
+.havenhotelfootercolumn .havenhotelsocialicons a{
+  display: inline-block;  
+  height: 45px;
+  width: 45px;
+  background-color: rgba(255,255,255,0.2);
+
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+
+    
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;  }
+
+
+ .havenhotelsocialicons ul {
+    position: absolute;
+    top: 15.5%;
+    left: 69.53%;    padding-top:3381px;
+    margin: 0;  display: flex;}
+
+.havenhotelfootertitle{
+  padding-left:32px;
+}
+
+.havenhotelsocialicons ul li 
+
+
+{
+    list-style: none;
+    margin-left:12px;;
+}
+.havenhotelsocialicons ul li .fab{
+    color: #000000;
+    font-size: 20.5px;
+    line-height: 50px;
+    transition: .5s;   text-align: center;
+}
+.havenhotelsocialicons ul li .fa:hover {
+    color: #ffffff;
+}
+.havenhotelsocialicons ul li a {
+    position: relative;  
+    display: block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: white;
+    text-align:center;  
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.havenhotelsocialicons ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.havenhotelsocialicons ul li:nth-child(1) a:hover {
+    background-color: #3b5999; 
+}
+.havenhotelsocialicons ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.havenhotelsocialicons ul li:nth-child(3) a:hover {
+  
+  
+   
+    background-color: #e4405f;
+}
+.havenhotelsocialicons ul li:nth-child(4) a:hover {
+    background-color: #cd201f;
+}
+.havenhotelsocialicons ul li:nth-child(5) a:hover {
+    background-color: #0077B5;
+}
+
+
+.havenhotelswivelingholidaystext{
+
+    
+  color:white; font-size:45px; margin-left:481px; margin-top:230px;
+}
+.havenhotelswivelingholidaysslogan{
+color:white; font-size:25px; margin-left:541px;
+
+}
+
+
+
+
+
+.havenhotelcontent{
+  max-width: 1068px;
+  margin-left: 182px;
+  width: 100%;
+  }
+
+  .abouthavenhotel{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .abouthavenhotel .havenhotelcontentbox{
+      padding-right: 40px;  margin-left:30px;
+      }
+  .havenhoteltitle{
+    font-weight: 600;
+    color: #113;  font-size: 2em;  min-width: 100%; margin: 1px 0;
+    }
+
+
+    .havenhoteltitletext{
+      color: #113;  font-size: 1.15em;  min-width: 100%;
+      }
+.abouthavenhotel .havenhotelimagebox{
+  position: relative;
+  min-width: 50%;
+
+  width: 30%;  left:3.1%;  min-height:500px;  
+  }
+
+
+  .havenhotelreadbutton{
+    position: relative;
+    display: inline-block;  margin-top: 30px; padding: 10px 30px; background: #fff;
+
+    border: .8px solid #111;
+    color: #333;
+    text-decoration: none;  }
+
+
+
+  .havenhotelreadbutton:hover{
+    background-color: blue;
+    border: none;
+    color: #fff; cursor:pointer;
+  }
+
+  .havenhotelbookbutton 
+  {
+    position: relative;
+  display: inline-block;  margin-top: 30px; padding: 10px 30px; background: #fff; margin-left:189px;
+
+  border: .8px solid #111;
+  color: #333;
+  text-decoration: none;  }
+
+  .havenhotelbookbutton:hover{
+    background-color: blue;
+    border: none;
+    color: #fff; cursor:pointer;
+  }
+
+
+  #more{
+    display: none;  
+  }
+  
+
+  .havenhotelimagecontent{
+    position: relative;
+    width: 450px;  
+    height: 450px;
+    display: inline-block; }
+
+
+    .havenhotelimage{
+      display: block;
+    width: 450px;
+  height: 450px;}
+
+
+
+  .havenhotelimagetext{
+    color: white;
+    font-size: 20px;
+    position: absolute;  top: 50%;  left:50%;  transform: translate(-50%, -50%);  font-family: 'Poppins', sans-serif;}
+
+
+
+
+
+
+    .havenhotelcurtaineffectfade{
+      height: 100%;
+      width: 100%;
+      top: 0;  left: 0;  background-color: #ff946bbd;}
+
+.havenhotelcurtaineffect{
+  position: absolute;
+  opacity: 0;
+  transition: all 0.3s ease;
+  background-color: #008cba;
+}
+
+
+
+.havenhotelimagecontent:hover .havenhotelcurtaineffectfade{
+  opacity: 1;
+}
+
+
+
+.opulenthotelfootertext{
+  max-width: 1170px;
+  margin:auto;
+}
+
+
+
+
+.opulenthotelfooterrow{
+  display: flex;
+
+}
+.opulenthotelfooter{
+  background-color: gray;
+    padding: 70px;
+}
+
+.opulenthotelfootercolumn{
+   width: 90%;
+}
+
+
+.opulenthotelfootercolumn h4{
+  font-size: 19px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;  text-underline-offset: 0.5em; text-decoration: underline;  text-decoration-color: red;
+
+
+
+  text-decoration-thickness: 1.8px;
+}
+
+.opulenthotelfootercolumn ul li{ 
+  margin-bottom: 10px;
+}
+
+
+
+
+.opulenthotelunderline{
+color:red; text-decoration: underline;}
+
+
+
+
+.opulenthotelfootercolumn ul li a{
+  font-size: 18px;
+
+
+
+
+    text-transform: capitalize;
+  text-decoration: none;
+  color: #bbbbbb;
+  transition: all 0.3s ease;
+}
+.opulenthotelfootercolumn ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px; 
+}
+.opulenthotelfootercolumn .opulenthotelsocialicons a{
+  display: inline-block;  
+  height: 45px;
+  width: 45px;
+  background-color: rgba(255,255,255,0.2);
+
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+
+    
+  border-radius: 50%;
+
+
+
+
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+ .opulenthotelsocialicons ul {
+    position: absolute;
+    top: 15.5%;
+    left: 66.32%;    padding-top:3371px;
+    margin: 0;  display: flex;}
+
+
+
+
+
+
+.opulenthotelfootertitle{
+  padding-left:32px;
+}
+
+.opulenthotelsocialicons ul li {
+    list-style: none;
+    margin-left:12px;;
+}
+.opulenthotelsocialicons ul li .fab{
+    color: #000000;
+    font-size: 20.5px;
+    line-height: 50px;
+    transition: .5s;   text-align: center;
+}
+.opulenthotelsocialicons ul li .fa:hover {
+    color: #ffffff;
+}
+.opulenthotelsocialicons ul li a {
+    position: relative;  
+    display: block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: white;
+    text-align:center;  
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.opulenthotelsocialicons ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.opulenthotelsocialicons ul li:nth-child(1) a:hover {
+    background-color: #3b5999; 
+}
+.opulenthotelsocialicons ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.opulenthotelsocialicons ul li:nth-child(3) a:hover {
+  
+  
+   
+    background-color: #e4405f;
+}
+.opulenthotelsocialicons ul li:nth-child(4) a:hover {
+    background-color: #cd201f;
+}
+.opulenthotelsocialicons ul li:nth-child(5) a:hover {
+    background-color: #0077B5;
+}
+
+
+.opulenthotelswivelingholidaystext{
+
+    
+  color:white; font-size:45px; margin-left:485px; margin-top:230px;
+}
+.opulenthotelswivelingholidaysslogan{
+color:white; font-size:25px; margin-left:581px;
+
+}
+
+.opulenthotelcontent{
+  max-width: 1068px;
+  margin-left: 182px;
+  width: 100%;
+  }
+  .aboutopulenthotel{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .aboutopulenthotel .opulenthotelcontentbox{
+      padding-right: 40px;  margin-left:30px;
+      }
+  .opulenthoteltitle{
+    font-weight: 600;
+    color: #113;  font-size: 2em;  min-width: 100%; margin: 1px 0;
+    }
+
+
+    .opulenthoteltitletext{
+      color: #113;  font-size: 1.15em;  min-width: 100%;
+      }
+.aboutopulenthotel .opulenthotelimagebox{
+  position: relative;
+  min-width: 50%;
+
+  width: 30%;  left:3.1%;  min-height:500px;  
+  }
+
+
+  
+  
+  
+  .opulenthotelreadbutton{
+    position: relative;
+    display: inline-block;  margin-top: 30px; padding: 10px 30px; background: #fff;
+
+    border: .8px solid #111;
+    color: #333;
+    text-decoration: none;  }
+
+
+
+  .opulenthotelreadbutton:hover{
+
+    background-color: blue;
+    border: none;
+    color: #fff; cursor:pointer;
+  }
+
+  .opulenthotelbookbutton 
+  {
+    position: relative;
+  display: inline-block;  margin-top: 30px; padding: 10px 30px; background: #fff; margin-left:189px;
+
+  border: .8px solid #111;
+  color: #333;
+  text-decoration: none;  }
+
+
+
+  .opulenthotelbookbutton:hover{
+    background-color: blue;
+    border: none;
+    color: #fff; cursor:pointer;
+  }
+
+
+  #more{
+    display: none;  
+  }
+  
+
+  .opulenthotelimagecontent{
+    position: relative;
+    width: 450px;  
+    height: 450px;
+    display: inline-block; object-fit: contain;}
+
+
+    
+    .opulenthotelimage{
+      display: block;
+    width: 450px;
+  height: 450px;}
+
+
+  .opulenthotelimagetext{
+    color: white;
+    font-size: 20px;
+    position: absolute;  top: 50%;  left:50%;  transform: translate(-50%, -50%);  font-family: 'Poppins', sans-serif;}
+
+
+    .opulenthotelcurtaineffectfade{
+      height: 100%;
+      width: 100%;
+      top: 0;  left: 0;  background-color: #ff946bbd;}
+.opulenthotelcurtaineffect{
+  position: absolute;
+  opacity: 0;
+  transition: all 0.3s ease;
+  background-color: #008cba;
+}
+
+
+.opulenthotelimagecontent:hover .opulenthotelcurtaineffectfade{
+  opacity: 1;
+}
+
+
+
+
+.hotelfacilitiesfootertext{
+  max-width: 1170px;
+  margin:auto;
+}
+.hotelfacilitiesfooterrow{
+  display: flex;
+
+}
+.hotelfacilitiesfooter{
+  background-color: gray;
+    padding: 70px;
+}
+
+.hotelfacilitiesfootercolumn{
+   width: 90%;
+}
+
+
+
+
+
+
+
+.hotelfacilitiesfootercolumn h4{
+  font-size: 19px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;  text-underline-offset: 0.5em; text-decoration: underline;  text-decoration-color: red;
+
+
+
+  text-decoration-thickness: 1.8px;
+}
+
+.hotelfacilitiesfootercolumn ul li{ 
+  margin-bottom: 10px;
+}
+
+.hotelfacilitiesunderline{
+color:red; text-decoration: underline;}
+
+
+
+
+.hotelfacilitiesfootercolumn ul li a{ font-size: 18px;
+
+
+
+
+    text-transform: capitalize;
+  text-decoration: none;
+  color: #bbbbbb;
+  transition: all 0.3s ease;
+}
+
+.hotelfacilitiesfootercolumn ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px; 
+}
+.hotelfacilitiesfootercolumn .hotelfacilitiessocialicons a{
+  display: inline-block;  
+  height: 45px;
+  width: 45px;
+  background-color: rgba(255,255,255,0.2);
+
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+
+    
+  border-radius: 50%;
+
+
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+
+
+
+ .hotelfacilitiessocialicons ul {
+    position: absolute;
+    top: 15.5%;
+    left: 66.1%;    padding-top:2845px;
+    margin: 0;  display: flex;}
+
+
+
+
+
+
+.hotelfacilitiesfootertitle{
+  padding-left:32px;
+}
+.hotelfacilitiessocialicons ul li {
+    list-style: none;
+    margin-left:12px;;
+}
+.hotelfacilitiessocialicons ul li .fab{
+    color: #000000;
+    font-size: 20.5px;
+    line-height: 50px;
+    transition: .5s;   text-align: center;}
+
+
+.hotelfacilitiessocialicons ul li .fa:hover {
+    color: #ffffff;
+}
+.hotelfacilitiessocialicons ul li a {
+    position: relative;  
+    display: block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: white;
+    text-align:center;  
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.hotelfacilitiessocialicons ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.hotelfacilitiessocialicons ul li:nth-child(1) a:hover {
+    background-color: #3b5999; 
+}
+.hotelfacilitiessocialicons ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.hotelfacilitiessocialicons ul li:nth-child(3) a:hover {
+  
+  
+   
+    background-color: #e4405f;
+}
+.hotelfacilitiessocialicons ul li:nth-child(4) a:hover {
+    background-color: #cd201f;
+}
+.hotelfacilitiessocialicons ul li:nth-child(5) a:hover {
+    background-color: #0077B5;
+}
+
+
+.hotelfacilitiesswivelingholidaystext{color:white; font-size:45px; margin-left:331px; margin-top:230px; }
+
+
+
+.hotelfacilitiesswivelingholidaysslogan{ color:white; font-size:25px; margin-left:623px;  }
+.hotelfacilitiesswivelingholidaystext{
+color:white; font-size:45px; margin-left:341px; margin-top:230px;
+}
+
+
+.hotelfacilitesbody{
+  font-family: 'Poppins', sans-serif;
+  }
+
+
+.hotelfacilitiestitle{
+ text-align: center;
+  }
+
+
+
+
+
+
+.margin45{margin-right:45px; }
+
+
+
+.contactuscontent{background-color:rgb(231, 224, 224); width: 70%; padding: 45px 50px; top:10%; left:15.3%; position: relative; border-radius: 10px; }
+.contactustitle{font-size: 30px; text-align:center; color: rgb(45, 25, 90); font-weight: 720; font-family: Verdana, Geneva, Tahoma, sans-serif;} 
+
+
+
+.contactusbody{background-image: url("contactusbackgroundimage.jpg"); background-size: 1530px 1310px; background-position: 0px; background-repeat: no-repeat;}
+.contactusparagraph{text-align: center; color: rgb(45, 25, 90); font-size: 14.1px; font-weight:400; font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+
+
+.contactusform{
+ position: relative; margin: 10px auto 0 auto; }
+
+.contactusrow{
+  width: 100%;
+  margin-left: 3px; 
+
+ margin-bottom: 19px;}
+
+
+
+
+
+.contactuslabel{ color: black; font-size: 14.1px; font-family: Verdana, Geneva, Tahoma, sans-serif; margin-top:19px; }
+.contactusinput{ width: 108%;
+font-weight: 400; padding: 8px 10px; border-radius: 5px; border: 1.2px solid #c4cae0; margin-top: 10px;}
+
+
+
+
+.contactustextarea{ width: 225%;
+  font-weight: 400; padding: 8px 10px; border-radius: 5px; border: 1.2px solid #c4cae0; margin-top: 10px;}
+
+.contactustextarea:focus, 
+.contactusinput:focus{outline:none; border-color: #6f6df4;}
+.contactusbutton{border:none; padding: 10px 20px; margin: 0 0 0 431px; background: linear-gradient(130deg, #6f6df4, #4c46f5); 
+color: #ffffff; border-radius: 3px;}
+
+
+
+
+
+
+
+.contactusfootertext{
+  max-width: 1170px;
+  margin:auto;
+}
+.contactusfooterrow{
+  display: flex;
+
+}
+.contactusfooter
+{
+  
+  background-color: gray;
+    
+  padding: 70px;}
+
+.contactusfootercolumn{
+   width: 90%;
+}
+
+
+
+
+
+
+
+
+
+.contactusfootercolumn h4{
+  font-size: 19px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;  text-underline-offset: 0.5em; text-decoration: underline;  text-decoration-color: red;
+
+
+
+  text-decoration-thickness: 1.8px;
+}
+
+.contactusfootercolumn ul li{ 
+  margin-bottom: 10px;
+}
+
+
+
+
+.contactusunderline{ color:red; text-decoration: underline;}
+
+.contactusfootercolumn ul li a{ font-size: 18px;
+    text-transform: capitalize;
+  text-decoration: none; color: #bbbbbb;  transition: all 0.3s ease;   }
+
+
+
+
+.contactusfootercolumn ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px; 
+}
+.contactusfootercolumn .contactussocialicons a{
+  display: inline-block;  
+  height: 45px;
+  width: 45px;
+  background-color: rgba(255,255,255,0.2);
+
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+
+    
+  border-radius: 50%;
+
+
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+
+
+
+ 
+
+
+.contactussocialicons ul {
+    position: absolute;
+    top: 15.5%;
+    left: 66.1%;    padding-top:1701px;
+    margin: 0;  display: flex;}
+
+
+.contactusfootertitle{
+  padding-left:32px; }
+
+
+
+
+
+
+.contactussocialicons ul li {
+    list-style: none;
+    margin-left:12px;;
+}
+.contactussocialicons ul li .fab{
+    color: #000000;
+    font-size: 20.5px;
+    line-height: 50px;
+    transition: .5s;   text-align: center;}
+
+.contactussocialicons ul li .fa:hover {  color: #ffffff; }
+
+.contactussocialicons ul li a {
+    position: relative;  
+    display: block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: white;
+    text-align:center;  
+    transition: 0.5s;
+    transform: translate(0,0px);  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); }
+
+
+
+
+
+
+.contactussocialicons ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.contactussocialicons ul li:nth-child(1) a:hover {
+    background-color: #3b5999; 
+}
+.contactussocialicons ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.contactussocialicons ul li:nth-child(3) a:hover {
+  
+  
+   
+    background-color: #e4405f;
+}
+.contactussocialicons ul li:nth-child(4) a:hover {background-color: #cd201f; }
+
+
+
+
+.contactussocialicons ul li:nth-child(5) a:hover {background-color: #0077B5; }
+
+
+.contactusswivelingholidaystext{color:white; font-size:45px; margin-left:359px; margin-top:230px; }
+
+
+
+.contactusswivelingholidaysslogan{ color:white; font-size:25px; margin-left:601px;  }
+
+
+.hotelfacilitesbody{
+  font-family: 'Poppins', sans-serif;
+  }
+
+  .bookahotelcontent{background-color:rgb(231, 224, 224); width: 70%; padding: 45px 50px; top:10%; left:15.3%; position: relative; border-radius: 10px; }
+  .bookahoteltitle{font-size: 30px; text-align:center; color: rgb(45, 25, 90); font-weight: 720; font-family: Verdana, Geneva, Tahoma, sans-serif;} 
+  
+  
+  
+  .bookahotelbody{background-image: url("bookahotelbackgroundimage.jpeg"); background-size: 1530px 1332px; background-position: 0px; background-repeat: no-repeat;}
+  .bookahotelparagraph{text-align: center; color: rgb(45, 25, 90); font-size: 14.1px; font-weight:400; font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  
+  
+  .bookahotelform{position: relative; margin: 10px auto 0 auto; }
+
+  
+  .bookahotelrow{
+    width: 100%;
+    margin-left: 3px; 
+  
+   margin-bottom: 19px;}
+  
+  
+  
+  
+  
+  .bookahotellabel{ color: black; font-size: 14.1px; font-family: Verdana, Geneva, Tahoma, sans-serif; margin-top:19px; }
+  .bookahotelinput{ width: 108%;
+  font-weight: 400; padding: 8px 10px; border-radius: 5px; border: 1.2px solid #c4cae0; margin-top: 10px;}
+  
+  
+  .bookahoteltextarea{ width: 225%;
+    font-weight: 400; padding: 8px 10px; border-radius: 5px; border: 1.2px solid #c4cae0; margin-top: 10px;}
+
+
+
+
+
+
+  .bookahoteltextarea:focus, 
+  .bookahotelinput:focus{outline:none; border-color: #6f6df4;}
+  .bookahotelbutton{border:none; padding: 10px 20px; margin: 0 0 0 431px; background: linear-gradient(130deg, #6f6df4, #4c46f5); 
+  color: #ffffff; border-radius: 3px;}
+  
+  .bookahotelfootertext{
+    max-width: 1170px;
+    margin:auto;
+  }
+  .bookahotelfooterrow{
+    display: flex; }
+
+  .bookahotelfooter
+  {
+    background-color: gray;
+    padding: 70px;}
+  
+  .bookahotelfootercolumn{
+     width: 90%;
+  }
+  .bookahotelfootercolumn h4{
+    font-size: 19px;   color: #ffffff; text-transform: capitalize; margin-bottom: 35px; font-weight: 500;  position: relative;  text-underline-offset: 0.5em; text-decoration: underline;  text-decoration-color: red; text-decoration-thickness: 1.8px;  }
+  
+
+
+
+
+
+  .bookahotelfootercolumn ul li{margin-bottom: 10px; }
+  .bookahotelunderline{ color:red; text-decoration: underline;}
+  
+  .bookahotelfootercolumn ul li a{ font-size: 18px; text-transform: capitalize;
+    text-decoration: none; color: #bbbbbb;  transition: all 0.3s ease;   }
+  
+  
+
+
+  .bookahotelfootercolumn ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px; 
+  }
+  .bookahotelfootercolumn .bookahotelsocialicons a{
+    display: inline-block;  height: 45px; width: 45px; background-color: rgba(255,255,255,0.2); margin:0 10px 10px 0;
+    text-align: center; line-height: 40px;  border-radius: 50%; color: #ffffff; transition: all 0.5s ease; }
+  
+  
+  
+  
+   
+  
+  .marginright19{ 
+      margin-right: 19px; }
+
+  .bookahotelsocialicons ul {
+      position: absolute; top: 15.5%;  left: 66.1%;    padding-top:1731px;  display: flex;}
+  
+  .bookahotelfootertitle{
+    padding-left:32px; }
+  
+  .contactussocialicons ul li {list-style: none; margin-left:12px; }
+
+
+
+  .bookahotelsocialicons ul li .fab{  color: #000000; font-size: 20.5px;  line-height: 50px; transition: .5s;   text-align: center;}
+  
+
+
+  .bookahotelsocialicons ul li .fa:hover {  color: #ffffff; }
+  .bookahotelsocialicons ul li a {
+
+      position: relative;  display: block; width: 45px; height: 45px; border-radius: 50%; background-color: white;
+      text-align:center;   transition: 0.5s; transform: translate(0,0px);  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); }
+  
+  
+  .bookahotelsocialicons ul li a:hover { transform: rotate(0deg) skew(0deg) translate(0, -10px); }
+  
+  
+  .bookahotelsocialicons ul li:nth-child(1) a:hover {background-color: #3b5999; }
+  .bookahotelsocialicons ul li:nth-child(2) a:hover {
+      background-color: #55acee;
+  }
+  .bookahotelsocialicons ul li:nth-child(3) a:hover {background-color: #e4405f; }
+
+
+  .bookahotelsocialicons ul li:nth-child(4) a:hover {background-color: #cd201f; }
+  
+  
+  .bookahotelsocialicons ul li:nth-child(5) a:hover {background-color: #0077B5; }
+
+
+
+
+
+
+  .bookahotelswivelingholidaystext{color:white; font-size:45px; margin-left:359px; margin-top:230px; }
+  .bookahotelswivelingholidaysslogan{ color:white; font-size:25px; margin-left:545px;  }
+
+
+
+
+
+
+
+@media only screen and (max-width: 1510px){
+  
+ .navbar{
+     margin: 61px 45px 0px -113px;  text-align: center;
+     
+
+}
+
+
+.homeswivelingholidaystext{
+  text-align: center;   margin: 181px -103px;
+}
+
+
+.homeswivelingholidaysslogan{
+  text-align: center; margin: -153px 210px 0px 25px;
+}
+
+.textportion{
+
+  text-align: center;
+}
+
+
+.homesocialicons ul {
+  position: absolute; text-align: center;
+  top: 201%;
+  left: 69.5%;   
+  padding: 0;
+
+  margin: 0;  display: inline-block;}
+.navbar2{
+    text-align: center;  margin: 61px 45px 0px 1px;}
+
+.ballyfinhotelswivelingholidaystext
+{
+ text-align:center; margin: 153px -103px 0px 1px;
+}
+
+
+
+
+
+
+
+.ballyfinhotelswivelingholidaysslogan
+{
+ text-align: center;  margin:10px 0px 0px 0px;
+}
+.ballyfinhotelcontent{
+  justify-content: center;
+  text-align: center;
+  display:block; margin: 0px 0px 0px 19px;
+ }
+
+
+ .ballyfinhotelbookbutton{
+  margin: 0px 0px 0px 30px;
+ }
+
+
+ .ballyfinhotelimagebox{
+  display: none;
+ }
+.ballyfinhotelimagecontent
+{  float:right; width: 1300px;    background: url("hotelresponsivebackgroundimage.jpg"); background-size:3100%;
+    
+  
+ }
+
+
+
+ 
+ .ballyfinhotelimage
+{  width:auto;  margin: 0px 0 0 71px; 
+    
+  
+ }
+
+
+
+.havenhotelswivelingholidaystext{  
+     text-align: center;  margin: 103px 19px 10px 0px;
+}
+.havenhotelswivelingholidaysslogan
+{  
+  
+  text-align: center;  margin: 0; }
+
+
+
+
+
+
+.opulenthotelswivelingholidaystext{  
+  text-align: center;  margin: 103px 19px 0px 10px; 
+}
+
+
+
+
+.opulenthotelswivelingholidaysslogan{  text-align: center;  margin: 0; }
+
+
+.hotelservicesswivelingholidaystext{text-align: center;  margin: 103px 19px 0px 10px;  }
+
+
+
+
+.hotelservicesswivelingholidaysslogan{margin: 10px 0px 0px 53px;  }
+
+
+
+
+
+
+.otherhotelsswivelingholidaystext{text-align: center;  margin: 103px 19px 0px 19px;  }
+
+.otherhotelsswivelingholidaysslogan{text-align: center;  margin: 0;  }  .dropdowncontent a{ text-align: center; margin: 0;}
+  
+ .servicescontainer{text-align: center; margin: 10px 0px 0px 25px;}   
+ #search-input{ margin: 0px 0px 0px -270px;}  
+ #searchhotelsbutton button {padding: 1em 2em; margin-left: 1em; 
+  background-color: #6759ff; color: #ffffff; border-radius: 5px; margin-top: 0.5em; width:10px;}
+  
+
+
+
+  #searchhotelsbutton input {
+    background-color: transparent;
+    size: 100;
+    border-bottom: 2px solid #110f29;  width: 100px;
+    padding: 1.5 0.1em;   margin: 0 0 0 -23em;
+  }
+  #searchhotelsbutton input:focus {
+    border-bottom-color: #6759ff;}
+  
+  
+  
+  
+  
+  
+  
+    #searchhotelsbutton button {
+      padding: 1em 4em;   
+      margin-left: 1em;
+      background-color: #6759ff;
+      color: #ffffff;
+      border-radius: 5px;
+      margin-top: 0.5em;
+    }
+    .button-value {
+      border: 2px solid #6759ff;  
+      
+      border-radius: 3em;
+      background-color: transparent; 
+      color: #6759ff;
+      cursor: pointer;
+    }
+    .active {
+      background-color: #6759ff;
+      color: #ffffff;
+    }    .homefooterrow { display: block;  margin: 0 0 0 23px; }    .margin-31{ margin-left:30px;; }
+  
+  
+  
+  
+  
+  
+  
+  
+    .homesocialicons ul {
+      position: absolute;   margin: 0 0 0 -131px;
+          padding-top: 853px;  padding-bottom: 58px; padding-right: 61px;
+        display: block;}   .homefooter{padding: 80px; height:1010px; text-align: center; } 
+      
+      
+      
+     
+        .ballyfinhotelfooterrow { display: block;  margin: 0 0 0 10px; }    
+    .ballyfinhotelsocialicons ul {
+      position: absolute;   margin: 0 0 0 -138px;
+          padding-top: 5230px;  padding-bottom: 0px; padding-right: 61px;
+        display: block;}   .ballyfinhotelfooter{padding: 80px; height:1185px; text-align: center; } .margin-19{ margin-left:19px; }
+
+
+
+
+
+
+
+
+        .havenhotelfooterrow { display: block;  margin: 0 0 0 10px; }    
+    .havenhotelsocialicons ul {
+      position: absolute;   margin: 0 0 0 -153px;  
+          padding-top: 5645px;  padding-bottom: 0px; padding-right: 61px;
+        display: block;}   .havenhotelfooter{padding: 80px; height:1185px; text-align: center; } .margin31{ margin-left:31px; }
+
+
+
+        .opulenthotelfooterrow { display: block;  margin: 0 0 0 31px; }    
+    
+    
+      .opulenthotelsocialicons ul {
+      position: absolute;   margin: 0 0 0 -131px;
+          padding-top: 5591px;  padding-bottom: 0px; padding-right: 61px;
+        display: block;}   .opulenthotelfooter{padding: 80px; height:1281px; text-align: center; } .margin18{  margin: 0px 0px 0px 18px; }
+
+        .otherhotelsfooterrow { display: block;  margin: 0 0 0 31px; }
+        .otherhotelssocialicons ul {
+            position: absolute;   margin: 0 0 0 -131px;
+              padding-top: 3503px;  padding-bottom: 0px; padding-right: 61px;
+                display: block;}   .otherhotelsfooter{padding: 80px; height:1480px; text-align: center; }
+                
+                
+.servicesfooterrow 
+{ display: block;  margin: 0 0 0 31px; }   
+      .servicessocialicons ul {
+        position: absolute;   margin: 0 0 0 -131px;
+      padding-top: 2831px;  padding-bottom: 0px; padding-right: 61px;
+          display: block;}   .servicesfooter{padding: 80px; height:1480px; text-align: center; }
+    .hotelsnotbookedplacement{ display: block; margin: 0 0 0 10px; }  
+    .hotelfacilitiesswivelingholidaystext{
+      text-align: center;   margin: 131px 10px;
+    }
+
+    .hotelfacilitiesswivelingholidaysslogan{
+      text-align: center; margin: -138px 210px 0px 113px;
+    }
+
+    
+    .container{ display: block;  margin: 0 0 0 91px;
+    }
+
+    .hotelfacilitiesfooterrow { display: block;  margin: 0 0 0 18px; }  
+    .hotelfacilitiessocialicons ul { position: absolute;   margin: 0 0 0 -138px; padding-top: 7595px;  padding-bottom: 0px; padding-right: 61px; display: block;}
+
+
+
+
+
+
+
+    .hotelfacilitiesfooter{padding: 80px; height:1185px; text-align: center; }  .margin13{margin-left:13.8px;} 
+    .hotelfacilitiesswivelingholidaystext{
+      text-align: center;   margin: 131px 10px;
+    }
+
+    .contactusswivelingholidaystext{
+      text-align: center;   margin: 131px 10px;
+    }
+
+    .contactusswivelingholidaysslogan{
+      text-align: center; margin: -119px 0 0 10px;
+    }
+    .contactusfooterrow { display: block;  margin: 0 0 0 18px; } 
+    
+    
+
+
+
+
+    .contactussocialicons ul { position: absolute;   margin: 0 0 0 -138px; padding-top: 2453px;  padding-bottom: 0px; padding-right: 61px; display: block;}
+    .contactusfooter{padding: 80px; height:1185px; text-align: center; }
+     
+
+     }     
+
+ 
+
+
+@media only screen and (min-width: 503px) and (max-width: 810px){
+
+  
+    
+    
+
+  
+  .dropdowncontent{ 
+   margin: 10px 0px 0px 181px; }
+   .homesocialicons ul {
+    position: absolute;   margin: 0 0 0 -259px;  align-items: center;  justify-content: center;
+        padding-top: 829px;  padding-bottom: 58px; padding-right: 61px;
+      display: flex;}   .homefooter{padding: 80px; height:1010px; text-align: center; }
+          
+        .ballyfinhotelsocialicons ul {
+          position: absolute;   margin: 0 0 0 -271px;
+              padding-top: 5210px;  padding-bottom: 0px; padding-right: 61px;
+            display: flex;}   .ballyfinhotelfooter{padding: 80px; height:1230px; text-align: center; } 
+        .margin-19{ margin-left:19px; } 
+      
+        .havenhotelfooterrow { display: block;  margin: 0 0 0 10px; }    
+        .havenhotelsocialicons ul {
+          position: absolute;   margin: 0 0 0 -291px;
+              padding-top: 5645px;  padding-bottom: 0px; padding-right: 61px;
+            display: flex;}   .havenhotelfooter{padding: 80px; height:1185px; text-align: center; } .margin-19{ margin-left:19px; }
+
+            .opulenthotelfooterrow { display: block;  margin: 0 0 0 31px; }
+      .opulenthotelsocialicons ul {
+      position: absolute;   margin: 0 0 0 -271px;
+          padding-top: 5591px;  padding-bottom: 0px; padding-right: 61px;
+        display: flex;}   .opulenthotelfooter{padding: 80px; height:1281px; text-align: center; } .margin18{  margin: 0px 0px 0px 18px; }
+         
+        .otherhotelsfooterrow { display: block;  margin: 0 0 0 31px; }
+        .otherhotelssocialicons ul {
+            position: absolute;   margin: 0 0 0 -259px;
+              padding-top: 3481px;  padding-bottom: 0px; padding-right: 61px;
+                display: flex;}   .otherhotelsfooter{padding: 80px; height:1480px; text-align: center; }
+
+    .servicesfooterrow 
+     { display: block;  margin: 0 0 0 31px; }   
+      .servicessocialicons ul {
+       position: absolute;   margin: 0 0 0 -238px;
+        padding-top: 2831px;  padding-bottom: 0px; padding-right: 61px;
+        display: flex;}   .servicesfooter{padding: 80px; height:1480px; text-align: center; }
+
+
+
+
+
+        
+  .hotelfacilitiesfooterrow { display: block;  margin: 0 0 0 18px; }    
+  .hotelfacilitiessocialicons ul { position: absolute;   
+  margin: 0 0 0 -331px; padding-top: 4310px;  padding-bottom: 0px; padding-right: 61px; display: flex;}   .hotelfacilitiesfooter{padding: 80px; height:1185px; text-align: center; }  
+
+
+
+
+
+
+  .contactusfooterrow { display: block;  margin: 0 0 0 18px; }    
+  .contactussocialicons ul { position: absolute;   
+  margin: 0 0 0 -274px; padding-top: 2453px;  padding-bottom: 0px; padding-right: 61px; display: flex;}   .contactusfooter{padding: 80px; height:1185px; text-align: center; } }     
+         
+   
+ 
+
+
+ @media only screen and (min-width: 810px) and (max-width: 1053px){
+
+   .dropdowncontent
+   
+   { 
+
+    margin: 10px 0px 0px 181px; } 
+  .homesocialicons ul {
+    position: absolute;   margin: 0 0 0 -329px;
+        padding-top: 653px;  padding-bottom: 0px; padding-right: 61px;
+      display: flex;}   .homefooter{padding: 80px; height:1010px; text-align: center;
+      
+      }  .ballyfinhotelfooterrow { display: block;  margin: 0 0 0 10px; }
+
+
+      .ballyfinhotelsocialicons ul {
+        position: absolute;   margin: 0 0 0 -341px;
+            padding-top: 4761px;  padding-bottom: 58px; padding-right: 61px;
+          display: flex;}   .ballyfinhotelfooter{padding: 80px; height:1230px; text-align: center; } 
+      .margin-19{ margin-left:19px; }
+
+
+
+      .havenhotelfooterrow { display: block;  margin: 0 0 0 10px; }    
+        .havenhotelsocialicons ul {
+          position: absolute;   margin: 0 0 0 -391px;
+              padding-top: 5161px;  padding-bottom: 0px; padding-right: 61px;
+            display: flex;}   .havenhotelfooter{padding: 80px; height:1185px; text-align: center; } .margin-19{ margin-left:19px; }
+
+
+            .opulenthotelfooterrow { display: block;  margin: 0 0 0 31px; }
+            .opulenthotelsocialicons ul {
+            position: absolute;   margin: 0 0 0 -329px;
+                padding-top: 5191px;  padding-bottom: 0px; padding-right: 61px;
+              display: flex;}   .opulenthotelfooter{padding: 80px; height:1281px; text-align: center; } .margin18{  margin: 0px 0px 0px 18px; }
+
+
+
+
+
+      .otherhotelsfooterrow { display: block;  margin: 0 0 0 31px; }
+        .otherhotelssocialicons ul {
+            position: absolute;   margin: 0 0 0 -331px;
+              padding-top: 3081px;  padding-bottom: 0px; padding-right: 61px;
+                display: flex;}   .otherhotelsfooter{padding: 80px; height:1480px; text-align: center; }
+
+
+            
+  .servicesfooterrow 
+    { display: block;  margin: 0 0 0 31px; }   
+    .servicessocialicons ul {
+
+
+    position: absolute;   margin: 0 0 0 -310px; padding-top:2238px;  padding-bottom: 0px; padding-right: 61px; display: flex;}   .servicesfooter{padding: 80px; height:1480px; text-align: center; }
+
+
+
+    .hotelfacilitiesfooterrow { display: block;  margin: 0 0 0 18px; }  
+    .hotelfacilitiessocialicons ul { position: absolute;   margin: 0 0 0 -371px; padding-top: 3573px;  padding-bottom: 0px; padding-right: 61px; display: flex;}   
+
+
+    .hotelfacilitiesfooter{padding: 80px; height:1185px; text-align: center; }  .margin13{margin-left:13.8px;} 
+
+
+    .contactusfooterrow { display: block;  margin: 0 0 0 18px; }  
+    .contactussocialicons ul { position: absolute;   margin: 0 0 0 -331px; padding-top: 2453px;  padding-bottom: 0px; padding-right: 61px; display: flex;}   
+    .contactusfooter{padding: 80px; height:1185px; text-align: center; }  
+       
+}
+
+@media only screen and (min-width: 1053px) and (max-width: 1510px){
+ .dropdowncontent{  margin: 10px 0px 0px 181px;} 
+
+
+ .homesocialicons ul {
+  position: absolute;   margin: 0 0 0 -410px;
+      padding-top: 591px;  padding-bottom: 58px; padding-right: 61px;
+    display: flex;}   .homefooter{padding: 80px; height:1010px; text-align: center; }
+  
+    .ballyfinhotelfooterrow { display: block;  margin: 0 0 0 10px; }
+    .ballyfinhotelsocialicons ul 
+    { position: absolute;   margin: 0 0 0 -341px;
+
+
+
+
+
+
+
+      padding-top: 4761px;  padding-bottom: 0px; padding-right: 61px;
+        display: flex;}   .ballyfinhotelfooter{padding: 80px; height:1230px; text-align: center; } 
+    .margin-19{ margin-left:19px; }
+
+
+
+
+    .havenhotelfooterrow { display: block;  margin: 0 0 0 10px; }    
+        .havenhotelsocialicons ul {
+          position: absolute;   margin: 0 0 0 -431px;
+              padding-top: 5119px;  padding-bottom: 0px; padding-right: 61px;
+            display: flex;}   .havenhotelfooter{padding: 80px; height:1185px; text-align: center; } .margin-19{ margin-left:19px; }
+
+    .opulenthotelfooterrow { display: block;  margin: 0 0 0 31px; }
+      .opulenthotelsocialicons ul {
+            position: absolute;   margin: 0 0 0 -381px;
+                padding-top: 5093px;  padding-bottom: 0px; padding-right: 61px;  display: flex;}   .opulenthotelfooter{padding: 80px; height:1480px; text-align: center; } .margin18{  margin: 0px 0px 0px 18px; }
+
+
+
+  .otherhotelsfooterrow { display: block;  margin: 0 0 0 31px; }
+
+  .otherhotelssocialicons ul {
+    position: absolute;   margin: 0 0 0 -381px;
+    padding-top: 3081px;  padding-bottom: 0px; padding-right: 61px; display: flex;}   .otherhotelsfooter{padding: 80px; height:1480px; text-align: center; 
+    
+    }
+
+
+
+
+    .servicesfooterrow 
+    { display: block;  margin: 0 0 0 31px; }   
+    .servicessocialicons ul {
+    position: absolute;   margin: 0 0 0 -359px; padding-top:2959px;  padding-bottom: 0px; padding-right: 61px; display: flex;} 
+.servicesfooter{padding: 80px; height:1480px; text-align: center; }
+
+.hotelfacilitiesfooterrow { display: block;  margin: 0 0 0 18px; }  
+    
+    .hotelfacilitiessocialicons ul { position: absolute;   margin: 0 0 0 -371px;   
+    padding-top: 3573px;  padding-bottom: 0px; padding-right: 61px; display: flex;}   
+    .hotelfacilitiesfooter{padding: 80px; height:1185px; text-align: center; } 
+    
+    .contactusfooterrow { display: block;  margin: 0 0 0 18px; }  
+    .contactussocialicons ul { position: absolute;   margin: 0 0 0 -405px;   
+    padding-top: 2453px;  padding-bottom: 0px; padding-right: 61px; display: flex;}   
+    .contactusfooter{padding: 80px; height:1185px; text-align: center; }
+    
+
+
+  
+  }
+
+@media only screen and (min-width: 610px) and (max-width: 1310px){ .servicescontainer{text-align: center; margin: 10px 0px 0px 1px;}}
+
+
+
+
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 610px){ .servicescontainer{text-align: center; margin: 10px 0px 0px 1px;}}
+@media only screen and (min-width: 0px) and (max-width: 610px){ 
+  .alert-danger{width:100%;  font-size:10px;}}
+
+
+.alert-danger{ height:94px; font-size:20px; font-weight: bold; }
+
+@media only screen and (min-width: 0px) and (max-width: 610px){ 
+.alert-danger{ height:171px; font-size:20px; font-weight: bold; } }
+
+
+
+
+
+@media only screen and (min-width: 613px) and (max-width: 810px){ .alert-danger{ height:153px; font-size:20px; font-weight: bold; } }
+
+
+@media only screen and (min-width: 813px) and (max-width: 1310px){ .alert-danger{ height:118px; font-size:20px; font-weight: bold; } }
+.margin-31{ margin-left: -31px; }
+
+
+.width1580height800{width: 1580px; height: 800px;}
+
+
+.fontsize23marginleft471{font-size:23px; margin-left:471px;}
+
+
+
+
+.homeparagraph{color:black; font-weight: bold; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.paddingleft32{padding-left:32px;}
